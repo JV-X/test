@@ -2,8 +2,8 @@
 
 defaults:
   - _self_
-  - data: tn3k.yaml
-  - model: beitSeg.yaml
+  - data: mnist.yaml
+  - model: mnist.yaml
   - logger: null
   - trainer: default.yaml
   - paths: default.yaml
@@ -14,4 +14,4 @@ task_name: "eval"
 
 tags: ["dev"]
 
-ckpt_path: USFM_20231222.pth
+ckpt_path: ???

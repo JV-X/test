@@ -1,7 +1,7 @@
 _target_: usfm.data.DS_Segdatamodule.DSSegVocModule
 
 data_path:
-  data_root: "/data/tn3k/"
+  data_root: "${data.data_DS_path}/tn3k/"
   data_split:
     train: train
     val: val

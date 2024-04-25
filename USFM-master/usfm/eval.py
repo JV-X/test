@@ -1,10 +1,6 @@
 from typing import List, Tuple
 
-
-# pip install hydra-core --upgrade
-# pip install -U hydra_colorlog
-import hydra 
-
+import hydra
 import pyrootutils
 from lightning import LightningDataModule, LightningModule, Trainer
 from lightning.pytorch.loggers import Logger
@@ -61,12 +57,4 @@ def main(cfg: DictConfig) -> None:
 
 
 if __name__ == "__main__":
-
-    
     main()
-
-# 启动时需要安装运行时需要的包
-# pip install albumentations
-# conda install mmsegmentation
-# pip install mmcv 
-# 需要先安装微软 Visual C++ Build Tools for Visual Studio 2015，1.1G的ISO文件， 网址：https://my.visualstudio.com/Downloads?q=build%20tools
